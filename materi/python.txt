@@ -1,0 +1,5 @@
+python api
+- micro service 
+ microservice adalah desain arsitektur untuk membuat sebuah aplikasi yang terdiri dari unti layanan tersendiri tapi tetap saling terhubung
+ setyiap unit layanan dalam aplikasi tersebut menjalankan fungsi berbeda, tapi tetap mendukung satu sama lain
+ 

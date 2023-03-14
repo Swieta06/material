@@ -1,0 +1,19 @@
+var => function scoped
+let => block scoped
+const =>block scoped and cannot be rassigned
+
+variable and data types:
+- Object
+- Array
+- Number
+- String
+- Boolean
+- Undefined
+- null
+
+for-loop(semua di dlm kurung, arg1=inisialisasi arg2=kondisi arg3=pengubah)
+while lopp(definisikan insialisasi di luar)
+do-while loop(menajalankan kode terlebih dahulu sblm di periksa)
+recursive(menggunakan fungsi)
+
+destructing (memecah array dalam variable)

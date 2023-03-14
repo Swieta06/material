@@ -1,0 +1,59 @@
+version control system(Git) = tools yang dapat mengontrol versi aplikasi yang dapat mengelola code dan melacak perubahan 
+benefit :
+1. segala perubahan akan disimpan pada setiap file
+2. branchin' dan merging
+3. mudah dilacak 
+
+gitlab 
+github/gitlab adalah service pihak ketiga yang disediakan di dlm web atau repository remotte yang terhubung dengan cloud
+- remotte repository penerima jasa penyedia yang ada di git 
+- sharing perubahan local file ke repository
+
+Basic GIT Commands
+1. git init = untuk inisialisasi repository
+2. git add = menyimpan perubahan sementara dari working area ke staging area
+	(.) = masukan semua perubahan yang belum disimpan ke staging secara sementara
+	(nama file) = 
+	(nama folder/namafile.ext) = add file di dlm folder
+3. git commit = menyimpan perubahan sementara menjadi permanen ke local repository(git commit -m "change name")
+4. git remote = set remot repository saat ini
+5. git push = singkronisasi local repo ke remot repository (git push origin master)
+6. git ignore = diretory yang bersangkutan tdak ikut push ke repo
+7. git pull = fetch(diambil data dari repository )dan (rebase)memperbarui local repository
+8. git chekcout = untuk keluar dari branch / git checkout -b namabranch 
+9. git branch =show all branch
+10. git merge = menggabung 2 atau lebih cabang dengan marge commit(git merge namabranch)
+11. git branch -d = delete branch (git branch -d namebranch)
+
+arsitektur git
+- git working directory = git applied
+- staging area = tempat penyimpanan sementara perubahan git di area
+- git local repository  = tempat penggabungan seluruh history
+
+Undoing Changes
+gitlab dapat memanage kejadian di setiap waktu
+git log = perintah git digunakan untuk menampulkan history berbentuk public
+reflog = private tergantung wkspace commit dan historynya
+git revert = membuat commit baru yang membalikan perubahan yang dicommitkan
+git reset = memutar balikan
+
+GIT Flow
+model git yang bercabang 
+master
+develop = poduk develop
+realis = produk rilis
+hotfix = product urgent
+feature
+feature
+
+feature branch workflow
+suatu workflow dalam git yang dimana konsep intinya semua fitur development ada di fiturnya masing masing, dan tidak berada di branch utama
+
+note:
+untuk default branch : git push -u origin master
+markdown : tatacara penulisan di web
+ganti nama branch : git branch -m namabranch_lama namabranch_baru
+git checkout -b = pindah ke branch lain jika tidak ada nama branch maka akan membuat branch baru
+reset mangambil timeline
+git reset akan mengembalikan keadaan berkas menjadi seperti sebelumnya dan akan menghapus perubahan dimasa sekarang. (file ada history hilang)
+git revert akan mengembalikan keadaan berkas menjadi seperti sebelumnya dan akan digabungkan dengan kondisi saat ini.(file hilang history ada)

@@ -1,0 +1,6 @@
+flask
+sqlalchemy
+alembic
+Flask-JWT
+Mysql-Python
+Mysqlclient

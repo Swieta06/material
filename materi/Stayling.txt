@@ -1,0 +1,59 @@
+Front-end
+
+HTML 
+1. didak perlu server untuk dijalankan
+2. File Extention => .htm, .html
+3. index.html adalah root /beranda situs web
+4. elemen HTML adalah block halaman HTML, yang diwakili oleh kurung sudut, 
+dan biasanya berpasangan, tetapi beberapa tag dapat menutup sendiri
+5. semua tag dan elemen dapat memiliki atribut yang menyediakan informasi tambahan tentang elemen, ditempatkan di dalam tag awal
+
+Block & inline
+
+	block elemen 
+	- selalu dimulai dengan baris baru
+	- mengambil lebar penuh yang tersedia
+
+	inline element
+	- tidak dimulai dengan baris aru
+	- hanya mengambil lebar yang dibutuhkan /lebar konten
+	note:
+	uniq pake id
+	same pake class
+
+CSS
+- cascading style sheet
+- ukan merupakan bahasa pemrograman
+- bahasa style sheet yang digunakan untuk menggambarkan penyajian dokumen yang ditulis didalam bahasa markup seperti html
+- cara mengimplemenasikan css ke dalm HTML
+	- Inline Style
+	- External and internal stylesheet
+	- prioritas pengguna style mengacu pada browser default <external<internal<inline) dan CSS Specificity
+margin : jarak antar elemen
+pading : jarak antar kontent
+
+CSS3 - Flexbox
+- didesain sebagai model layout satu dimensi
+- metode yang dapat menawarkan distribusi ruang antara elemen-elemen HTML
+- kemampuan penyelarasan yang kuat 
+- sumbu flexbox:
+	- Main axis, diatur oleh flex-direction
+	- cross axis, tegak lurus terhadap main axis
+- flexbox bekerja di area yang disebut flex-container
+- distribusi ruang dalam penggunaan flexbox
+	-flex grow
+	-flex shrink
+	-flex basis
+- align-items akan menyelaraskan item pada cross axis
+- justify-content menyelaraskan item pada main axis
+
+media queries - breakpoint
+
+Boostrap
+boostrap merupakan framework
+
+- container adalah elemen tata letak paling dasara di boostrap dan diperlukan saaat menggunakan grid
+	.container
+	yang menetapkan lebar maksimum pada setiap breakpoit responsive
+	.container-fluid
+	yang lebar:100% disemua breakpoint

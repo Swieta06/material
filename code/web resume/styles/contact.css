@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .content {
+  height: 100px;
+  width: 25%;
+  background-color: rgb(0, 0, 0);
+}
+
+.warning, .error, .sucsess {
+  border: 1px solid rgba(204, 204, 204, 0.8);
+  padding: 10px;
+  color: black;
+}
+
+.sucsess {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}/*# sourceMappingURL=contact.css.map */

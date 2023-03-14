@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume|Swieta</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- header>div.logo+(nav#navigasi>ul>li*3) -->
+    <header class="flex-container">
+      <div class="logo">
+        <p class="title">Swieta Nurjanah Hetty</p>
+      </div>
+      <nav id="navigasi">
+        <ul>
+          <li class="active">Home</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+        <div class="hamburger">
+           <img src="./image/hamburger.png" alt="">
+          </div>
+      </nav>
+    </header>
+    <main>
+      <!-- buat inline kasih tag block -->
+      <!-- klo dia inline dibungkus dengan div -->
+      <!-- section.banner>(div.info>h1.info-head+p.info-tag+button.info-btn)+(div.image-container>img.profil-image) -->
+      <section class="banner">
+        <div class="info">
+          <h1 class="info-head">IT Consultant</h1>
+          <p class="info-tag">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            dolorum animi facere quos ducimus voluptatem aperiam dignissimos,
+            eos laudantium rem atque tempore a, impedit placeat provident natus
+            praesentium? Delectus, perferendis?
+          </p>
+          <button class="info-btn">See more</button>
+        </div>
+       <div class="image-container">
+          <img
+            src="./image/Kendall_Jenner_at_Met_Gala_2021_5.jpg"
+            alt=""
+            class="profil-image"
+          />
+        </div>
+      </section>
+      <!-- section.introduction>(section.background>p.title+p.content)+(section.service>p.title+h2.heading+(div.service-content>div.card*4>p.card-title+p.card-desc)) -->
+      <section class="introduction">
+        <section class="background">
+          <p class="title">My Background</p>
+          <p class="content">
+            While I’ve worked with dozens of companies in all kinds of
+            industries, at my heart I’m a storyteller who simply brings out the
+            core features of the brands I work with. I aim for honesty and
+            transparency in my work, and rely on strong products and services to
+            shine.
+          </p>
+        </section>
+        <section class="service">
+          <p class="title">My Services</p>
+          <h2 class="heading">What can I do for you?</h2>
+          <div class="service-content">
+            <div class="card">
+              <p class="card-title">Brand Developmet</p>
+              <p class="card-desc">
+                What is the core personality of your brand? What is the story
+                you want to tell about your company’s products or services? Let
+                me help you define a strong brand.
+              </p>
+            </div>
+            <div class="card">
+              <p class="card-title">Product rollouts</p>
+              <p class="card-desc">
+                Bringing a new product to market? I can help your new release
+                land with the impact it deserves. Let’s discuss the best way to
+                roll out your product.
+              </p>
+            </div>
+            <div class="card">
+              <p class="card-title">Creating marketing</p>
+              <p class="card-desc">
+                Want to develop a new campaign that turns heads and helps you
+                stand out? I can help you create unique and exciting marketing
+                concepts that deliver results.
+              </p>
+            </div>
+            <div class="card">
+              <p class="card-title">Perceptio management</p>
+              <p class="card-desc">
+                Does your brand have a public perception problem? No problem. I
+                can help you take the right steps to convert a stalling brand
+                into the hottest thing in town.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- section.project>(p.section-title+h2.heading+p.project-text+button.project-btn)+(div.img-container>img.project-image) -->
+
+      <section class="project">
+        <section class="project-info">
+          <p class="section-title">Project</p>
+          <h2 class="heading">Checkout my previous work</h2>
+          <p class="project-text">
+            Rather than continuing to tell you what I can do, why not take a
+            look for yourself? I’m proud of all my previous projects, and
+            believe the success I’ve managed to cultivate in the past speaks for
+            itself. Follow the link below to see some of my work.
+          </p>
+          <button class="project-btn">see project</button>
+        </section>
+        <div class="img-container">
+          <img
+            src="./image/What_Is_a_Project.avif"
+            alt="kendall.img"
+            class="project-image" 
+          />
+        </div>
+      </section>
+      <section class="testimoni">
+        <!-- section.testimoni>(div.image-container>img.testi-image)+(section.testimony-content>p.testimony-text+p.testimony-giver+p.testymony-job) -->
+        <div class="image-container">
+          <img
+            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=926,fit=crop/kerriu1rk/img-mPoynragqKcppX3Q.jpg"
+            alt=""
+            class="testi-image"
+          />
+        </div>
+        <section class="testimony-content">
+          <p class="testimony-text">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+            voluptatem architecto odio iusto voluptate nemo veritatis explicabo
+            aspernatur itaque quas libero dicta illum doloribus pariatur minus,
+            amet impedit excepturi hic?"
+          </p>
+          <p class="testimony-giver">Nicollas Ductorn</p>
+          <p class="testymony-job">
+            Director of Corporate Marketing<br />
+            Forge Inc.
+          </p>
+        </section>
+      </section>
+      <section class="workapproach">
+        <!-- section.workapproach>p.title+h1.work-text+button.work-btn -->
+        <p class="title">WORK APPROACH</p>
+        <h1 class="work-text">
+          People don't buy goods and services. They buy relations, stories and
+          magic.
+        </h1>
+        <button class="work-btn">Get in touch</button>
+      </section>
+    </main>
+    <footer>
+      <!-- footer>(section.info>p.name+p.desc)+(section.contact>p.contact-title+p.email+p.telp) -->
+      <section class="info">
+        <p class="name">Swieta Nurjanah Hetty</p>
+        <p class="desc">
+          Experienced IT consultant. I’m excited to take whatever challenges you
+          have to throw at me.
+        </p>
+      </section>
+      <section class="contact">
+        <p class="contact-title">Contacts</p>
+        <p class="email">swietanurjanah@gmail.com</p>
+        <p class="telp">911-00-8807</p>
+      </section>
+    </footer>
+    <div class="float">
+      <img src="./image/add.png" alt="" height="100px" width="100px" />
+    </div>
+  </body>
+</html>

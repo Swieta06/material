@@ -1,0 +1,224 @@
+:root {
+    --primary: #1f274c;
+    --secondary: orangered;
+    --accent: rgb(247, 180, 36);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* p {
+  color: var(--primary);
+} */
+
+header {
+    background-color: #f4f6fc;
+    padding: 10px 50px;
+}
+
+.banner {
+    background-color: var(--primary);
+    color: #ffff;
+}
+
+.title {
+    color: orangered;
+}
+
+p.title {
+    font-weight: bold;
+}
+
+.info-btn,
+.project-btn {
+    background-color: orangered;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+
+.background>.content::first-letter {
+    font-size: 50px;
+}
+
+.info-btn:active,
+.project-btn:active {
+    background-color: #fff;
+    color: orangered;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 28px;
+}
+
+.introduction {
+    background-color: #f4f6fc;
+}
+
+.project {
+    background-color: #1f274c;
+    color: #ffff;
+}
+
+/* .project-btn{
+    background-color: orangered;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 28px;
+
+} */
+.testimoni {
+    background-color: #f4f6fc;
+}
+
+.workapproach {
+    background-color: rgb(247, 180, 36);
+    color: #ffff;
+}
+
+.work-btn {
+    background-color: #1f274c;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 28px;
+}
+
+.info {
+    background-color: #1f274c;
+    color: #ffff;
+}
+
+.contact {
+    background-color: #1f274c;
+    color: #ffff;
+}
+
+/* .work-btn{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+} */
+.workapproach {
+    position: relative;
+}
+
+.float {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.service>.heading {
+    color: var(--primary);
+}
+
+/* .project > .img-container {
+  position: relative;
+  left: 200px;
+} */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* hanyaberlaku untuk flex */
+.logo {
+    margin-right: auto;
+    /* untuk meletakan text ditengah */
+    align-self: center;
+}
+
+nav>ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav>ul>li {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner>.info {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.banner>.image-container {
+    width: 200px;
+    flex: 1;
+}
+
+.image-container>img {
+    /* lebarnya menyesuikan pembungkusnya */
+    width: 100%;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-content>.card {
+    padding: 20px;
+}
+
+.service-content>.card>.card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.hamburger {
+    display: none;
+    height: 30px;
+}
+
+.hamburger>img {
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner>.image-container {
+        align-self: center;
+    }
+}

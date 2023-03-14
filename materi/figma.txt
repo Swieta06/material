@@ -1,0 +1,44 @@
+
+ui desain dicetuskan oleh don arthur norman 1995
+desain deciplines:
+ 1.user experience
+ 2.visual
+ 3.user intervace
+ 
+3jenis desain :
+ 1.graphical user interface
+ 2.voice controller interface
+ 3.gesture controller interface
+ 
+ ui desain element
+  1.color
+	- color scheme
+	- test accesibility
+		WCAG Test:untuk kontras checker (https://webaim.org/resources/contrastchecker/)
+	-Preview ui color
+		(https://m3.material.io/theme-builder#/dynamic)
+  2.spacing
+  3.typography
+	-hierarchy
+	-line length
+	-layout
+	1. reveal (untuk responsive)
+	2. Transform (transformasi elemen, ex:navbar)
+	3. Divide ()
+	4. Reflow
+	5. Expand
+	
+  4.layout
+  5.responsive
+  - 3 pokok responsive desain
+	- breakpiont
+	- grid
+	- pattern
+	
+we should do this to start
+1. mulai dari mobile
+2. gunakan skala SVGs
+3. gunakan 3 atau lebih berakpoint
+4. meminimalisi menjadi tujuan utama
+
+ 

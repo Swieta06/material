@@ -1,0 +1,42 @@
+$minimum-height: 100vh;
+$primary: black;
+@mixin flexcenter($direction:row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+  min-height: $minimum-height;
+  background-color: $primary;
+  @include flexcenter();
+  .content {
+    height: 100px;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+  }
+}
+%basic-message{
+    border:1px solid #cccc;
+    padding: 10px;
+    color: black;
+}
+.sucsess{
+ @extend %basic-message;
+ border-color: green;
+}
+.error{
+   @extend %basic-message;
+   border-color: red;
+}
+.warning{
+    @extend %basic-message;
+    border-color: yellow;
+}

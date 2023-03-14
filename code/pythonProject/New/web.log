@@ -1,0 +1,30 @@
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 877-540-548
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:18:36] "[35m[1mPOST /login/ HTTP/1.1[0m" 500 -
+root - ERROR - wita@gmail.com Attemp to logged in success
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:19:15] "POST /login/ HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:19:22] "[35m[1mPOST /login/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\BSIT\\code\\pythonProject\\New\\main.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 877-540-548
+root - ERROR - wita@gmail.com Attemp to logged in failed
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:22:12] "[33mPOST /login/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\User\\Documents\\BSIT\\code\\pythonProject\\New\\main.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 877-540-548
+root - ERROR - wita@gmail.com Attemp to logged in failed
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:31:36] "[33mPOST /login/ HTTP/1.1[0m" 404 -
+root - ERROR - wita@gmail.com Attemp to logged in success
+werkzeug - INFO - 127.0.0.1 - - [13/Feb/2023 14:31:41] "POST /login/ HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 877-540-548
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 877-540-548

@@ -1,0 +1,25 @@
+Cloud Web-Server Deployment
+- Amazon Web Service(AWS) platform cloud paling kompherensif dan diadopsi secara luas didunia,
+menawarkan lebih 
+
+layanan aws
+-(elastic compute cloude)Amazon ECA
+-(Simple storage service)Amazon S3
+-(relational database service)amazon RDS
+-Elastic IP adress
+
+Elatic Compute Cloud
+EC2 layanan dari aws berupa virtual komputasi yang dapat dikembangkan sesuai dengan keinginan user,
+berikut adalah macam macam tipe instance 
+1. t2.small
+2. t2.medium
+3. t2.large
+
+- Security Group
+security group bertindak sebagai virtual firewall untuk instance, dan berfungsi untuk
+mrngontrol keluar dan masuknya komunikasi jaringan.
+
+cd /etc/yum.repos.d
+sudo rm -rf docker-ce.repo
+sudo yum update
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
